@@ -1,39 +1,39 @@
-class BankAccount {
 
+interface BankOperations {
+    void setAccountHolder(String name);
+    void deposit(double amount);
+    void withdraw(double amount);
+    double checkBalance();
+}
 
-    private String accountNumber;
-    private String name;
+class Account implements BankOperations {
+
+    private String accountHolder;
     private double balance;
 
-    // When we create a new bank account
-    BankAccount(String accNo, String personName, double money) {
-        accountNumber = accNo;
-        name = personName;
-        balance = money;
+    public void setAccountHolder(String name) {
+        this.accountHolder = name;
     }
 
-
-    void deposit(double money) {
-        if (money > 0) {
-            balance = balance + money;
-            System.out.println("Money added ");
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+            System.out.println("Deposited: " + amount + " Rs");
         } else {
-            System.out.println("You cannot add negative money ");
+            System.out.println("Invalid deposit amount");
         }
     }
 
-
-    void withdraw(double money) {
-        if (money > 0 && money <= balance) {
-            balance = balance - money;
-            System.out.println("Money taken ");
+    public void withdraw(double amount) {
+        if (amount > 0 && amount <= balance) {
+            balance -= amount;
+            System.out.println("Withdrawn: " + amount + " Rs");
         } else {
-            System.out.println("Not enough money or wrong amount ");
+            System.out.println("Invalid or insufficient balance");
         }
     }
 
-
-    double checkBalance() {
+    public double checkBalance() {
         return balance;
     }
 }
@@ -41,17 +41,12 @@ class BankAccount {
 public class BankApp {
     public static void main(String[] args) {
 
-        // Create a new bank account
-        BankAccount myAccount = new BankAccount(
-                "101",
-                "Mamatha",
-                1000
-        );
+        BankOperations account = new Account();
 
-        myAccount.deposit(500);     // add money
-        myAccount.withdraw(300);
-        myAccount.withdraw(5000);
+        account.setAccountHolder("Deepak");
+        account.deposit(10000);
+        account.withdraw(3000);
 
-        System.out.println("My Money = " + myAccount.checkBalance());
+        System.out.println("Current Balance: " + account.checkBalance() + " Rs");
     }
-}git
+}
