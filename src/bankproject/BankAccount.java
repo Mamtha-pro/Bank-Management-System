@@ -20,10 +20,11 @@ public abstract class BankAccount {
     }
 
     public double checkBalance(){
+
         return balance;
     }
 
-    public abstract  void withdraw (double amount);
-    public abstract void calculateInterest();
+    public abstract  boolean withdraw (double amount);
+    public abstract double calculateInterest();
 
 }

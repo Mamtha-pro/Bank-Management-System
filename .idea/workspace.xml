@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b9c0a197-0507-4c24-9d87-45f55da08b2b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankproject/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankproject/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankproject/BankSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankproject/BankSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankproject/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankproject/CurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankproject/SalaryAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankproject/SalaryAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankproject/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankproject/SavingsAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BankApp.executor": "Run",
-    "Application.BankSystem.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Admin/IdeaProjects/Bank-Management-System/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BankApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankSystem.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Admin/IdeaProjects/Bank-Management-System/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
