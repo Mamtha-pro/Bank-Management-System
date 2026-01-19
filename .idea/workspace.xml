@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9c0a197-0507-4c24-9d87-45f55da08b2b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bankproject/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankproject/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bankproject/BankSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankproject/BankSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bankproject/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankproject/CurrentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bankproject/SalaryAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankproject/SalaryAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bankproject/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankproject/SavingsAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,16 +84,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
